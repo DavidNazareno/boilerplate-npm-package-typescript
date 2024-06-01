@@ -1,0 +1,36 @@
+{
+  // Compiler Options
+  "compilerOptions": {
+    "jsx": "react",
+    "target": "ES2020",
+
+    "module": "ESNext",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "outDir": "./dist",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "baseUrl": "./src",
+    // Class Fields
+    "useDefineForClassFields": true,
+
+    // Bundler Mode
+    "moduleResolution": "bundler",
+    "emitDeclarationOnly": true,
+    "declarationMap": true,
+
+    // Linting
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "forceConsistentCasingInFileNames": true,
+    "noUncheckedIndexedAccess": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true
+  },
+
+  // Include and Exclude Paths
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
