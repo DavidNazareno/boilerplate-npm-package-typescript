@@ -24,6 +24,7 @@ The primary purpose of the `core` folder is to:
 
 ## Example Structure
 
+```
 core
 │
 ├── interfaces
@@ -33,3 +34,4 @@ core
 │ └── example-use-case.ts # Core business logic implementation
 │
 └── index.ts # Exporting core functionalities
+```

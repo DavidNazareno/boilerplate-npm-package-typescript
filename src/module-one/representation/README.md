@@ -24,6 +24,7 @@ The primary purpose of the `representation` folder is to:
 - **Examples**: State management hooks, data fetching hooks, custom utility hooks.
 
 ## Example Structure
+```
 representation
 │
 ├── components
@@ -33,4 +34,4 @@ representation
 │ └── useExampleHook.ts # Example custom hook
 │
 └── index.ts # Exporting components and hooks
-
+```

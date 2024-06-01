@@ -4,7 +4,7 @@ This boilerplate provides a structured foundation for creating an npm package. I
 
 ## Folder Structure
 
-\`\`\`
+```
 boilerplate-package
 │
 ├── src
@@ -28,7 +28,7 @@ boilerplate-package
 ├── tsconfig.json
 └── tsup.config.json
 
-\`\`\`
+```
 
 ## Purpose
 
@@ -38,9 +38,9 @@ The purpose of this boilerplate is to provide a clean and organized starting poi
 
 Clone this repository and install the dependencies:
 
-\`\`\`bash
+```bash
 pnpm install
-\`\`\`
+```
 
 ## Usage
 
@@ -48,35 +48,35 @@ Customize the boilerplate to fit your package's needs by implementing your logic
 
 ### Core
 
-The \`core\` folder contains the fundamental logic and interfaces that define the core functionality of your package.
+The `core` folder contains the fundamental logic and interfaces that define the core functionality of your package.
 
-Refer to \`src/core/README.md\` for more details.
+Refer to `src/core/README.md` for more details.
 
 
 ### Representation
 
-The \`representation\` folder contains React components and hooks for user interface representation.
+The `representation` folder contains React components and hooks for user interface representation.
 
-Refer to \`src/representation/README.md\` for more details.
+Refer to `src/representation/README.md` for more details.
 
 ### Utils
 
-The \`utils\` folder contains utility functions, constants, and configurations.
+The `utils` folder contains utility functions, constants, and configurations.
 
-Refer to \`src/utils/README.md\` for more details.
+Refer to `src/utils/README.md` for more details.
 
 ## Example
 
 Here is a basic example of how to use the boilerplate to create a simple package:
 
-1. **Define Interfaces**: Create TypeScript interfaces in the \`core/interfaces\` folder.
-2. **Implement Operations**: Implement your main functions in the \`operations\` folder.
-3. **Create Components and Hooks**: Develop React components and custom hooks in the \`representation\` folder.
-4. **Add Utilities**: Add utility functions, constants, and configurations in the \`utils\` folder.
+1. **Define Interfaces**: Create TypeScript interfaces in the `core/interfaces` folder.
+2. **Implement Operations**: Implement your main functions in the `operations` folder.
+3. **Create Components and Hooks**: Develop React components and custom hooks in the `representation` folder.
+4. **Add Utilities**: Add utility functions, constants, and configurations in the `utils` folder.
 
 ### Example Structure
 
-\`\`\`typescript
+```typescript
 // src/core/interfaces/IExample.ts
 export interface IExample {
   performOperation(data: any): any;
@@ -117,22 +117,22 @@ export const EXAMPLE_CONSTANT = 'example';
 
 // src/utils/helpers.ts
 export const exampleHelper = (input: string): string => {
-  return \`Hello, \${input}\`;
+  return `Hello, ${input}`;
 };
-\`\`\`
+```
 
 ## Building and Running
 
 Compile the TypeScript code:
 
-\`\`\`bash
+```bash
 npm run build
-\`\`\`
+```
 
 Run the compiled code:
 
-\`\`\`bash
+```bash
 npm start
-\`\`\`
+```
 
 This boilerplate is designed to be flexible and modular, allowing you to build robust and maintainable npm packages with ease.

@@ -28,9 +28,11 @@ The primary purpose of the `utils` folder is to:
 - **Examples**: Configuration files, environment-specific settings.
 
 ## Example Structure
+```
 utils
 │
 ├── constants.ts # Define constant values
 ├── config.ts # Manage configuration settings
 ├── helpers.ts # Implement utility functions
 └── index.ts # Exporting utilities
+```
